@@ -1,0 +1,20 @@
+[
+  {
+    "token": "先",
+    "components": ["止", "人"],
+    "icos": {
+      "configuration": "⿱",
+      "orientations": ["r0", "r0s1"]
+    },
+    "semantic_domain": "MOVEMENT"
+  },
+  {
+    "token": "降",
+    "components": ["阜", "止", "止"],
+    "icos": {
+      "configuration": "⿰",
+      "orientations": ["r0", "r2", "r2"]
+    },
+    "semantic_domain": "MOVEMENT"
+  }
+]
