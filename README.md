@@ -1,17 +1,5 @@
-hi
-Here are the Research Questions (RQs) and core bullet points summarizing your study:
+RQ1 (Does spatial info matter?): Does the AI’s ability to comprehend character meaning become more precise when characters are decomposed into "components" combined with "spatial codes" (configuration & orientation)?
 
-**Research Questions (RQs)**
+ $I(M; \hat{C}, O \mid C) > 0$ ???
 
-* **RQ1 (Semantic Utility)**: Does injecting ICOS—specifically macro-layouts ($\hat{C}$) and micro-orientations ($O$)—reduce semantic uncertainty ($I(M; \hat{C}, O \mid C) > 0$) in small language models?
-* **RQ2 (Emergence & Alignment)**: Can text-only small language models spontaneously predict authentic $D_4$ Euclidean transformations given only component identities ($C$) and semantic domains ($M$)?
-* **RQ3 (Cognitive Model Comparison)**: How do emergent spatial representations in small models (e.g., ChineseBabyLM, BronzeRoBERTa) compare to primitive human logograph-creation principles versus unconstrained general LLMs?
-
----
-
-**Core Summary Bullet Points**
-
-* **Novel Corpus**: We introduce *ZhouOracle-Multilayer*, a lightweight, highly structured Western Zhou oracle bone corpus (~1,000 tokens across 300 types) explicitly annotated with multilayer graphemic attributes.
-* **Formalization**: We formalize graphemic structures into an Ideographic Configuration & Orientation Sequence (ICOS), representing spatial layouts ($\hat{C}$) and micro-orientations ($O$) via the $D_4$ Dihedral Symmetry Group.
-* **Embodied Probing**: We employ a reverse-probing paradigm to test if text-only models (without visual or stroke inputs) implicitly learn primitive spatial-embodied schemas.
-* **Empirical Validation**: Demonstrating alignment between model predictions and authentic early Western Zhou inscriptions provides computational evidence of emergent spatial cognition matching primitive human character-creation principles.
+RQ2 (EMERGE? Can the AI ​​intuitively create logographs?): For a BabyLM that has never encountered images of character forms, if provided only with "components" and the "meaning," can it infer the configuration (e.g., that the "toe" component should be inverted to represent "descending")?
