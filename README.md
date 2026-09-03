@@ -1,4 +1,4 @@
-RQ1 (Does spatial info matter?): Does the AI’s ability to comprehend character meaning become more precise when characters are decomposed into "components" combined with "spatial codes" (configuration & orientation)?
+RQ1 (Does spatial info matter?): Does the AI’s ability to comprehend character meaning become more precise when logographic characters are decomposed into "components" combined with "spatial codes" (configuration & orientation)?
 
  $I(M; \hat{C}, O \mid C) > 0$ ???
 
